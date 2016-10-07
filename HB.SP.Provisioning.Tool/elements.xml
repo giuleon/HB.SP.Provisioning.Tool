@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Elements>
+  <List Name="Quick Guide Workspace">
+    <Fields>
+      <Field ID="{70A9BE2A-165B-48B7-970C-6B7DAC6F07B6}" StaticName="hbGuideSupportTitle" DisplayName="Title" Name="hbGuideSupportTitle" Type="Text" Group="HB" CanToggleHidden="TRUE" Required="TRUE" SourceID="{5b450410-350a-4955-9c78-852bd8fe8280}" />
+      <Field Name="hbGuideSupportDescription" DisplayName="Description" Type="Note" Group="HB" NumLines="100" RichText="TRUE" RichTextMode="FullHtml" UnlimitedLengthInDocumentLibrary="FALSE" Required="TRUE" ID="{7613141E-08B1-46BC-9777-A81C52230022}"/>
+      <Field Type="Lookup" DisplayName="Language" Required="FALSE" List="{f29321ae-54a7-404d-9ce1-bd2fde4680d9}" ShowField="hbLanguage" ID="{9A0261B0-A36A-4667-BBC9-B967F3281EF0}" StaticName="hbLanguage" Name="hbLanguage" Group="HB"/>
+    </Fields>
+  </List>
+  <List Name="Links Workspace">
+    <Fields>
+      <Field ID="{13F13CEF-817D-417C-9F55-0EEAF595AC7F}" DisplayName="Title" Title="Title" Name="hbLinkSupportTitle" Type="Text" Group="HB" CanToggleHidden="TRUE" Required="TRUE" SourceID="{5b450410-350a-4955-9c78-852bd8fe8280}" />
+      <Field ID="{98D3FA90-E623-4664-8F36-3329490C810B}" DisplayName="Description" Title="Description" Name="hbLinkSupportDescription" Type="Text" Group="HB" CanToggleHidden="TRUE" Required="FALSE" SourceID="{5b450410-350a-4955-9c78-852bd8fe8280}" />
+      <Field ID="{CA37C5EC-9B7C-4044-B70A-91838C80802B}" StaticName="hbLinkURL" DisplayName="Go to" Title="Go to" Name="hbLinkURL" Type="URL" Group="HB" CanToggleHidden="TRUE" SourceID="{5b450410-350a-4955-9c78-852bd8fe8280}" />
+      <Field Name="hbLinkImage" Type="URL" DisplayName="Image" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Image" Group="HB" ID="{9DE313C0-1EAC-4AED-825F-F3DF91B4BAFE}" SourceID="{a3e5ff75-fabb-4ea8-b7da-f3331bdee99d}" />
+      <Field Type="Lookup" DisplayName="Language" Required="FALSE" List="{f29321ae-54a7-404d-9ce1-bd2fde4680d9}" ShowField="hbLanguage" UnlimitedLengthInDocumentLibrary="FALSE" ID="{26D055CF-E53A-4D31-8B11-7E1BAA3224A8}" Name="hbLanguage" Group="HB" />
+    </Fields>
+  </List>
+  <JsLinks>
+    <JsLink Path="~sitecollection/TemplateFiles/hb.jslink.tasklist.js"></JsLink>
+  </JsLinks>
+</Elements>
